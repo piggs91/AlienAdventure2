@@ -27,7 +27,6 @@ extension Hero {
                 {
                     if let histData = item["HistoricalData"] as? [String:AnyObject]
                     {
-                           print("here3")
                         if let carbonAge = histData["CarbonAge"] as? Int
                         {
                            if (carbonAge < 30)
