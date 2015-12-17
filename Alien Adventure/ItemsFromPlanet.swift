@@ -21,7 +21,7 @@ extension Hero {
                 return items // return the items
             }
             
-            if (originPlanet == "Glinda")
+            if (originPlanet == planet)
             {
                 //  print(item.name)
                 // print(item.historicalData)

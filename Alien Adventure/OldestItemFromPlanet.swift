@@ -12,7 +12,7 @@ extension Hero {
         var OldAge = 0
         var OldItem : UDItem?
         for item in inventory{
-        if (   (item.historicalData["PlanetOfOrigin"] as! String) == "Cunia" )
+        if (   (item.historicalData["PlanetOfOrigin"] as! String) == planet )
         {
          
             
